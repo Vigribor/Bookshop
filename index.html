@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header_nav">
+            <ul class="header_list">
+                <li><a class="logotype" href="#">Bookshop</a></li>
+                <li><a class="books" href="#">BOOKS</a></li>
+                <li><a class="audiobooks" href="#">AUDIOBOOKS</a></li>
+                <li><a class="stationery" href="#">STATIONERY&GIFTS</a></li>
+                <li><a class="blog" href="#">BLOG</a></li>
+                <li><a class="user" href="#"><img src="images/user.png"></a></li>
+                <li><a class="search" href="#"><img src="images/search.png"></a></li>
+                <li><a class="cart_nav" href="#"><img src="images/shop bag.png"></a></li>
+            </ul>
+            <div class="item_count">0</div> 
+        </nav>
+    </header>
+    <main>
+        <section class="section_1">
+           <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <div class="slide_first">
+                    <img class="banner_1" src="images/banner_1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img class="banner_2" src="images/banner_2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img class="banner_3" src="images/banner_3.png" alt="">
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+            <div class="rectangle_1"></div>
+            <div><img class="arrow_1" src="images/arrow.png" alt=""></div>
+            <div><a class="change">CHANGE <br> OLD BOOK <br> ON NEW</a></div>
+            <div class="rectangle_2"></div>
+            <div><img class="arrow_2" src="images/arrow.png" alt=""></div>
+            <div><a class="top">TOP <br> 100 <br> BOOKS <br> 2022</a></div>
+        </section class="section_2">
+        <section>
+            <div class="rectangle_3"></div>
+            <div class="filter">
+                <ul class="goods">
+                    <li class="al"><a class="all" href="#" data-f="all">All</a></li>
+                    <li class="art"><a class="arts" href="#" data-f="art_&_fashion">Art & Fashion</a></li>
+                    <li class="bio"><a class="biog" href="#" data-f="biography">Biography</a></li>
+                    <li class="bus"><a class="busi" href="#" data-f="business">Business</a></li>
+                    <li class="cra"><a class="craf" href="#" data-f="crafts_&_hobbies">Crafts & Hobbies</a></li>
+                    <li class="dra"><a class="dram" href="#" data-f="drama">Drama</a></li>
+                    <li class="fic"><a class="fict" href="#" data-f="fiction">Fiction </a></li>
+                    <li class="foo"><a class="food" href="#" data-f="food_&_drinks">Food & Drink</a></li>
+                    <li class="hea"><a class="heal" href="#" data-f="health_&_wellbeing">Health & Wellbeing</a></li>
+                    <li class="his"><a class="hist" href="#" data-f="history_&_politics">History & Politics</a></li>
+                    <li class="hum"><a class="humo" href="#" data-f="humor">Humor</a></li>
+                    <li class="poe"><a class="poet" href="#" data-f="poetry">Poetry</a></li>
+                    <li class="psy"><a class="psyc" href="#" data-f="psychology">Psychology</a></li>
+                    <li class="sci"><a class="scie" href="#" data-f="science">Science</a></li>
+                    <li class="tec"><a class="tech" href="#" data-f="technology">Technology</a></li>
+                    <li class="tra"><a class="trav" href="#" data-f="travel_&_maps">Travel & Maps</a></li>
+                </ul> 
+            </div>
+        </section>
+        <div id="products">
+            <div id="card">
+                <div class="box humor">
+                    <img src="images/cover_1.png" alt="">
+                    <h1>Kevin Kwan</h1>
+                    <h2>Crazy rich asians</h2>
+                    <p>"the outrageously funny debut novel <br> about three super-rich, pedigreed <br> Chinese families and the gossip..."</p>
+                    <h3>humor</h3>
+                    <h4>4,99$</h4>
+                    <button class="add_to_cart" type="button" data-id="1">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box drama">
+                    <img src="images/cover_2.png" alt="">
+                    <h1>Margaret Atwood</h1>
+                    <h2>The handmaid’s tale</h2>
+                    <p>"This novel can be interpreted as a <br> double narrative, Offred's tale and <br> the handmaids' tales. The night..."</p>
+                    <h3>drama</h3>
+                    <h4>6,99$</h4>
+                    <button class="add_to_cart" type="button" data-id="2">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box history_&_politics">
+                    <img src="images/cover_3.png" alt="">
+                    <h1>Aldous Huxley</h1>
+                    <h2>Brave new world</h2>
+                    <p>"dystopian novel written in 1931 by <br> English author Aldous Huxley, and published <br> in 1932. Largely set in..."</p>
+                    <h3>history & politics</h3>
+                    <h4>12,43$</h4>
+                    <button class="add_to_cart" type="button" data-id="3">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box biography">
+                    <img src="images/cover_4.png" alt="">
+                    <h1>Tara Westover</h1>
+                    <h2>Educated</h2>
+                    <p>"It is a tale of fierce family loyalty <br> and of the grief that comes with severing <br> the closest of ties. With..."</p>
+                    <h3>biography</h3>
+                    <h4>12,68$</h4>
+                    <button class="add_to_cart" type="button" data-id="4">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box fiction">
+                    <img src="images/cover_5.png" alt="">
+                    <h1>Marianne Fritz</h1>
+                    <h2>The weight of things</h2>
+                    <p>"You discover not an eccentric fluke of <br> literary nature but rather a brilliant and <br> masterful satiris..."</p>
+                    <h3>fiction</h3>
+                    <h4>18,23$</h4>
+                    <button class="add_to_cart" type="button" data-id="5">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box drama">
+                    <img src="images/cover_6.png" alt="">
+                    <h1>Chris Power</h1>
+                    <h2>Mothers stories</h2>
+                    <p>"the stories in Mothers lay bare the emotional <br> and psychic damage of life, love, and <br> abandonment..."</p>
+                    <h3>drama</h3>
+                    <h4>12,35$</h4>
+                    <button class="add_to_cart" type="button" data-id="6">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box art_&_fashion">
+                    <img src="images/cover_7.png" alt="">
+                    <h1>Adam Geczy</h1>
+                    <h2>Transorientalism in Art, Fashion, and Film</h2>
+                    <p>"The Art of Wool brings together garments from <br> the International Woolmark Prize Archive with <br> works from the collections..."</p>
+                    <h3>art & fashion</h3>
+                    <h4>£23.03</h4>
+                    <button class="add_to_cart" type="button" data-id="7">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box business">
+                    <img src="images/cover_8.png" alt="">
+                    <h1>Kristin Kahrs</h1>
+                    <h2>Business Plans Handbook</h2>
+                    <p>"Business Plans Handbook: A Compilation of Actual <br> Business Plans Developed by Small Businesses <br> Throughout North America..."</p>
+                    <h3>business</h3>
+                    <h4>no</h4>
+                    <button class="add_to_cart" type="button" data-id="8">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box crafts_&_hobbies">
+                    <img src="images/cover_9.png" alt="">
+                    <h1>Melissa Kirk</h1>
+                    <h2>Hobbies and Crafts: The Ultimate Guide to Paper Crafts, Holiday Crafts and More</h2>
+                    <p>"Crafts of all kinds can delight children and adults <br> alike. Not only that, but there are so many <br> different choices when it comes to crafts and mediums that can be used..."</p>
+                    <h3>crafts & hobbies</h3>
+                    <h4>no</h4>
+                    <button class="add_to_cart" type="button" data-id="9">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box food_&_drinks">
+                    <img src="images/cover_10.png" alt="">
+                    <h1>Jim Harter</h1>
+                    <h2>Food and drink : a pictorial archive from nineteenth-century sources</h2>
+                    <p>"This monumental collection contains over 350 royalty-free <br> illustrations of every conceivable activity <br> concerned with the preparation and consumption of food and drink..."</p>
+                    <h3>food & drinks</h3>
+                    <h4>no</h4>
+                    <button class="add_to_cart" type="button" data-id="10">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box health_&_wellbeing">
+                    <img src="images/cover_11.png" alt="">
+                    <h1>Реймонд Макдональд, Гантер Крейц</h1>
+                    <h2>Music, Health, and Wellbeing</h2>
+                    <p>"The great saxophonist Charlie Parker once proclaimed if you <br> don't live it, it won't come out of your <br> horn..."</p>
+                    <h3>health & wellbeing</h3>
+                    <h4>no</h4>
+                    <button class="add_to_cart" type="button" data-id="11">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box poetry">
+                    <img src="images/cover_12.png" alt="">
+                    <h1>"Уильям Шекспир</h1>
+                    <h2>Король Лир</h2>
+                    <p> "Новый перевод известной пьесы Шекспира, выполненный <br> знаменитым переводчиком классической английской <br> литературы Григорием Михайловичем Кружковым."</p>
+                    <h3>poetry</h3>
+                    <h4>502₽</h4>
+                    <button class="add_to_cart" type="button" data-id="12">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box psychology">
+                    <img src="images/cover_13.png" alt="">
+                    <h1>Бехтерев В. М.</h1>
+                    <h2>Бессмертие человеческой личности как научная проблема</h2>
+                    <p>"Вниманию читателей предлагается книга «Бессмертие <br> человеческой личности как научная проблема», <br> в которой..."</p>
+                    <h3>psychology</h3>
+                    <h4>no</h4>
+                    <button class="add_to_cart" type="button" data-id="13">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box science">
+                    <img src="images/cover_14.png" alt="">
+                    <h1>Константин Никифорович Мухин</h1>
+                    <h2>Занимательная ядерная физика</h2>
+                    <p>"Всякая развивающаяся наука нуждается в молодых <br> энтузиастах, влюбленных в нее и готовых посвятить <br> ей свою жизнь."</p>
+                    <h3>science</h3>
+                    <h4>no</h4>
+                    <button class="add_to_cart" type="button" data-id="14">buy now</button>
+                </div>
+            </div>
+            <div id="card">
+                <div class="box travel_&_maps">
+                    <img src="images/cover_15.png" alt="">
+                    <h1>Лидия Куприна</h1>
+                    <h2>Туристская картография 2-е изд., пер. и доп. Учебное пособие для вузов</h2>
+                    <p>"В настоящем пособии рассматриваются  <br> теоретические вопросы о сущности и <br> свойстве карт."</p>
+                    <h3>travel & maps</h3>
+                    <h4>1539₽</h4>
+                    <button class="add_to_cart" type="button" data-id="15">buy now</button>
+                </div>
+            </div>
+        </div>
+        <div><button class="load_more" type="button">load more</button></div>
+
+        <script src="scripts.js"></script>
+    </main>
+</body>
+</html>
